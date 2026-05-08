@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#070A12" />
+  <meta name="description" content="Идрис Шарипов С. — 16-летний веб-разработчик из Душанбе. Сайты, Telegram-боты, AI-боты и цифровые решения." />
+  <meta name="keywords" content="Идрис Шарипов, Idris Sharipov, idris.codes, Telegram bot developer, веб-разработчик Душанбе" />
+  <meta name="author" content="Sharipov Idris Saidahmadovich" />
+  <meta property="og:title" content="Идрис Шарипов С. — цифровой профиль" />
+  <meta property="og:description" content="16-летний разработчик веб-сайтов и Telegram-ботов из Душанбе." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="my-photo.jpg" />
+  <title>Идрис Шарипов С. — цифровой профиль</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="noise"></div>
+  <div class="backdrop">
+    <span class="orb orb-one"></span>
+    <span class="orb orb-two"></span>
+    <span class="grid-glass"></span>
+  </div>
+
+  <section class="gate" id="gate" aria-label="Language selection">
+    <div class="gate-card">
+      <div class="gate-kicker">idris.codes</div>
+      <h1 data-i18n="chooseTitle">Выберите язык</h1>
+      <p data-i18n="chooseText">Перед открытием цифрового профиля выберите удобный язык просмотра.</p>
+      <div class="language-list">
+        <button class="language-btn" data-lang="ru">Русский</button>
+        <button class="language-btn" data-lang="en">English</button>
+        <button class="language-btn" data-lang="tj">Тоҷикӣ</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="page" id="page">
+    <nav class="nav glass">
+      <a href="#hero" class="logo">IDRIS</a>
+      <div class="nav-links">
+        <a href="#identity" data-i18n="navIdentity">Профиль</a>
+        <a href="#expertise" data-i18n="navExpertise">Деятельность</a>
+        <a href="#achievements" data-i18n="navAchievements">Достижения</a>
+        <a href="#contact" data-i18n="navContact">Контакты</a>
+      </div>
+      <button class="nav-lang" id="openLang" data-i18n="langBtn">Язык</button>
+    </nav>
+
+    <header class="hero section" id="hero">
+      <div class="mobile-mark reveal">SHARIPOV IDRIS</div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="official-badge reveal" data-i18n="badge">Цифровой профиль • Душанбе, Таджикистан</div>
+          <h1 class="hero-title reveal">
+            <span data-i18n="heroName">Идрис Шарипов С.</span>
+            <em data-i18n="heroLine">16-летний разработчик веб-сайтов и Telegram-ботов</em>
+          </h1>
+          <p class="hero-description reveal" data-i18n="heroDescription">Молодой веб-разработчик из Душанбе, который начал программировать в 10 лет и уже 5 лет создаёт сайты, Telegram-ботов, AI-ботов и цифровые решения для бизнеса, проектов и личных брендов.</p>
+          <div class="hero-actions reveal">
+            <a class="btn primary" href="https://idris.codes" target="_blank" rel="noopener" data-i18n="portfolioBtn">Открыть портфолио</a>
+            <a class="btn secondary" href="#achievements" data-i18n="achBtn">Достижения</a>
+          </div>
+        </div>
+
+        <aside class="portrait-zone reveal" aria-label="Portrait">
+          <div class="portrait-frame">
+            <img src="my-photo.jpg" alt="Идрис Шарипов С." onerror="this.style.display='none';this.nextElementSibling.style.display='grid';" />
+            <div class="portrait-placeholder">IDRIS<br>SHARIPOV</div>
+          </div>
+          <div class="data-chip chip-one"><small data-i18n="chipRole">Developer</small><strong>Python • JS • AI</strong></div>
+          <div class="data-chip chip-two"><small data-i18n="chipBorn">Born</small><strong>10.01.2010</strong></div>
+        </aside>
+      </div>
+
+      <div class="stats reveal">
+        <div><strong>5+</strong><span data-i18n="statYears">лет в программировании</span></div>
+        <div><strong>16</strong><span data-i18n="statAge">лет</span></div>
+        <div><strong>6</strong><span data-i18n="statCerts">ключевых сертификатов</span></div>
+      </div>
+    </header>
+
+    <section class="section identity" id="identity">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="identityEyebrow">Идентификация</span>
+        <h2 data-i18n="identityTitle">Краткий профиль</h2>
+        <p data-i18n="identitySub">Сведения представлены в сдержанном официальном стиле: без лишнего шума, с акцентом на личность, опыт и направление деятельности.</p>
+      </div>
+      <div class="identity-grid">
+        <article class="panel main-panel reveal">
+          <span class="panel-number">01</span>
+          <h3 data-i18n="bioTitle">Шарипов Идрис Саидахмадович</h3>
+          <p data-i18n="bioText">Родился 10 января 2010 года. Проживает в городе Душанбе, Таджикистан. С 10 лет занимается программированием. Основная деятельность — веб-сайты, Telegram-боты, AI-боты, автоматизация и цифровая презентация проектов.</p>
+        </article>
+        <article class="panel reveal"><span class="panel-number">02</span><h3 data-i18n="blogTitle">Публичная активность</h3><p data-i18n="blogText">Ведёт Instagram-блог idris.codes, где демонстрируется развитие, стиль работы и цифровые проекты.</p></article>
+        <article class="panel reveal"><span class="panel-number">03</span><h3 data-i18n="portfolioTitle">Отдельное портфолио</h3><p data-i18n="portfolioText">Примеры работ собраны отдельно: несколько проектов доступны в портфолио Идриса и показывают уровень разработки.</p></article>
+      </div>
+    </section>
+
+    <section class="section expertise" id="expertise">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="expertiseEyebrow">Деятельность</span>
+        <h2 data-i18n="expertiseTitle">Направления разработки</h2>
+        <p data-i18n="expertiseSub">Фокус на инструментах, которые выглядят достойно, работают понятно и решают конкретные задачи.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service reveal"><i>01</i><h3 data-i18n="s1t">Веб-сайты</h3><p data-i18n="s1p">Лендинги, портфолио, презентационные сайты и адаптивные интерфейсы.</p></article>
+        <article class="service reveal"><i>02</i><h3 data-i18n="s2t">Telegram-боты</h3><p data-i18n="s2p">Боты для заявок, меню, сценариев, автоматизации и поддержки клиентов.</p></article>
+        <article class="service reveal"><i>03</i><h3 data-i18n="s3t">AI-боты</h3><p data-i18n="s3p">Интеграция искусственного интеллекта через OpenRouter и похожие AI-сервисы.</p></article>
+        <article class="service reveal"><i>04</i><h3 data-i18n="s4t">Автоматизация</h3><p data-i18n="s4p">Системы, которые уменьшают ручную работу и делают процессы быстрее.</p></article>
+        <article class="service reveal"><i>05</i><h3 data-i18n="s5t">Исправление ботов</h3><p data-i18n="s5p">Поиск ошибок, улучшение логики, подготовка к Railway, GitHub и запуску.</p></article>
+        <article class="service reveal"><i>06</i><h3 data-i18n="s6t">Личный бренд</h3><p data-i18n="s6p">Сайты и тексты, которые делают человека или бизнес убедительнее.</p></article>
+      </div>
+      <div class="tech-reel reveal">
+        <div class="reel-track">
+          <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Telegram Bot API</span><span>aiogram</span><span>PyTelegramBotAPI</span><span>OpenRouter AI</span><span>GitHub</span><span>Railway</span>
+          <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Telegram Bot API</span><span>aiogram</span><span>PyTelegramBotAPI</span><span>OpenRouter AI</span><span>GitHub</span><span>Railway</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section achievements" id="achievements">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="achEyebrow">Достижения</span>
+        <h2 data-i18n="achTitle">Сертификаты и олимпиады</h2>
+        <p data-i18n="achSub">Ключевые отметки развития: программирование, веб-разработка, JavaScript и международные coding-соревнования.</p>
+      </div>
+
+      <div class="certificate-timeline">
+        <div class="cert reveal"><b>2020</b><h3>Python Start</h3><p>IT-RUN</p></div>
+        <div class="cert reveal"><b>2021</b><h3>HTML/CSS Starter</h3><p>IT-RUN</p></div>
+        <div class="cert reveal"><b>2022</b><h3>Python Middle</h3><p>Algorithmics</p></div>
+        <div class="cert reveal"><b>2022</b><h3>HTML/CSS Pro</h3><p>IT-RUN</p></div>
+        <div class="cert reveal"><b>2023</b><h3>Python Pro</h3><p>Algorithmics</p></div>
+        <div class="cert reveal"><b>2024</b><h3>JavaScript Developer</h3><p>IT-RUN</p></div>
+      </div>
+
+      <div class="olympiads">
+        <article class="award reveal">
+          <div class="medal">III</div>
+          <h3 data-i18n="ditoTitle">DITO — Dubai IT Olympiad 2023</h3>
+          <p data-i18n="ditoText">3-е место на международной IT-олимпиаде. Среди заявленных регионов и стран: СНГ, ОАЭ, Сингапур и другие участники международного уровня.</p>
+        </article>
+        <article class="award reveal featured-award">
+          <div class="medal">II</div>
+          <h3 data-i18n="icoTitle">ICO — International Coding Olympiad</h3>
+          <p data-i18n="icoText">2-е место на международной олимпиаде по программированию с участниками примерно из 20 стран: Таджикистан, Россия, Казахстан, Узбекистан, Кыргызстан, Азербайджан, ОАЭ, Сингапур, Китай, Германия, Турция, Индия и другие.</p>
+        </article>
+        <article class="award reveal">
+          <div class="medal">+</div>
+          <h3 data-i18n="localTitle">Другие олимпиады</h3>
+          <p data-i18n="localText">Также отмечены многочисленные республиканские, городские и профильные олимпиады по программированию, IT и цифровым направлениям.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section portfolio-call" id="portfolio">
+      <div class="portfolio-card reveal">
+        <span class="eyebrow" data-i18n="portfolioEyebrow">Портфолио</span>
+        <h2 data-i18n="portfolioCallTitle">Примеры работ вынесены отдельно</h2>
+        <p data-i18n="portfolioCallText">Этот сайт показывает личность и статус. Проекты не перегружают страницу: несколько примеров работ можно посмотреть в отдельном портфолио Идриса.</p>
+        <a class="btn primary" href="https://idris.codes" target="_blank" rel="noopener" data-i18n="openPortfolio">Открыть портфолио</a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="contactEyebrow">Контакты</span>
+        <h2 data-i18n="contactTitle">Официальные ссылки</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <a href="https://instagram.com/idris.codes" target="_blank" rel="noopener"><small>Instagram</small><strong>@idris.codes</strong></a>
+        <a href="https://idris.codes" target="_blank" rel="noopener"><small data-i18n="portfolioLink">Сайт-портфолио</small><strong>idris.codes</strong></a>
+      </div>
+    </section>
+
+    <footer class="footer" data-i18n="footer">© 2026 • Цифровой профиль: Идрис Шарипов С.</footer>
+
+    <div class="mobile-dock">
+      <a href="#hero" data-i18n="dockHome">Главная</a>
+      <a href="#expertise" data-i18n="dockWork">Работы</a>
+      <a href="#achievements" data-i18n="dockAch">Статус</a>
+      <a href="#contact" data-i18n="dockContact">Связь</a>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
